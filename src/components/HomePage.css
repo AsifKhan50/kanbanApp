@@ -1,0 +1,61 @@
+.parent-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MainContainer {
+    position: relative;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 44px 84px 6px #D8D9DB;
+    border-radius: 30px;
+    display: flex;
+    
+}
+.sideSection{
+    width: auto;
+    margin: 0%;
+    padding: 0%;
+}
+@media (max-width: 576px) {
+    .MainContainer {
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+      box-shadow: none;
+    }
+  }
+  
+  /* Medium screens */
+  @media (min-width: 577px) and (max-width: 991px) {
+    .MainContainer {
+      width: 80%;
+      height: auto;
+    }
+  }
+  
+  /* Large screens */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .MainContainer {
+      width: 70%;
+      height: auto;
+    }
+  }
+  
+  /* Extra large screens */
+  @media (min-width: 1200px) {
+    .MainContainer {
+        width: 100%;
+        height: auto;
+        max-width: 1440px;
+        
+      border-radius: 30px;
+      box-shadow: 0px 44px 84px 6px #D8D9DB;
+    }
+  }
+  @media (max-width: 1450px) {
+    .MainContainer{
+      overflow: auto;
+    }
+  }

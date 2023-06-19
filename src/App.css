@@ -1,38 +1,165 @@
-.App {
-  text-align: center;
+*{
+  flex: none;
+order: 0;
+flex-grow: 0;
+width: fit-content;
+overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.todo, .progress, .Done{
+  width:314px;
   display: flex;
-  flex-direction: column;
+  height: 63px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  left: 20px;
+}
+.todoLeft{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 93px;
+  margin: 0%;
+  padding: 0%;
+  border: none;
+  
+}
+.progressLeft{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 143px;
+  margin: 0%;
+  padding: 0%;
+  border: none;
+}
+.doneLeft{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 99px;
+  margin: 0%;
+  padding: 0%;
+  border: none;
+
+}
+.vector1{
+  width: 309.2px;
+height: 0px;
+
+
+border: 3px solid #5030E5;
+
+left: 20px;
+right: 20px;
+position: relative;
+}
+.vector2{
+  width: 309.2px;
+  height: 0px;
+  
+  
+  border: 3px solid #FFA500;
+  
+  left: 20px;
+  right: 20px;
+  position: relative;
+
+}
+.vector3{
+  width: 309.2px;
+  height: 0px;
+  
+ 
+  border: 3px solid #8BC48A;
+  
+  left: 20px;
+  right: 20px;
+  position: relative;
+
+}
+.stageLow{
+  padding: 0%;
+  margin: 0%;
+  width: 24px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+
+
+
+color: #D58D49;
+}
+.stageBgLow{
+  width: 36px;
+height: 23px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: rgba(223, 168, 116, 0.2);
+border-radius: 4px;
+}
+.stageBgHigh{
+  width: 39px;
+  height: 23px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: rgba(223, 168, 116, 0.2);
+  border-radius: 4px;
+  
+}
+.stageHigh{
+  padding: 0%;
+  margin: 0%;
+  width: 27px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+
+
+color: #D58D49;
 }
 
-.App-link {
-  color: #61dafb;
+.stageCmplt{
+  padding: 0%;
+  margin: 0%;
+  width: 64px;
+  height: 15px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  
+  
+  
+  color: #68B266;
+}
+.stageBgCmplt{
+  width: 76px;
+height: 23px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: rgba(131, 194, 157, 0.2);
+border-radius: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.imgDiv {
+ display: flex;
+ justify-content: space-between;
+ height: auto;
+ width: 100%;
+  margin-top: 7px;
 }

@@ -1,0 +1,398 @@
+.navbar {
+    width: 250.5px;
+    height: 931px;
+    background-color: rgb(255, 255, 255);
+    
+    
+    z-index: 999;
+    border-radius: 30px 0px 0px 30px;
+    transition: width 0.3s ease-in-out;
+    border-right: 1px solid #DBDBDB;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+
+}
+
+.vector {
+    
+    width: 224px;
+    height: 0px;
+    padding: 0%;
+    position: relative;
+    left : 22px;
+    top: 30.5px;
+    border: 1px solid #DBDBDB;
+}
+
+.navbar-toggle {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: none;
+    overflow-x: visible !important
+}
+
+.navbar-toggle-icon {
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    overflow-x: visible !important
+}
+
+.navbar-toggle-icon::before,
+.navbar-toggle-icon::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    display: block;
+    position: absolute;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-toggle-icon::before {
+    top: -8px;
+}
+
+.navbar-toggle-icon::after {
+    bottom: -8px;
+}
+.navbar-menu-list {
+    padding: 0%;
+    position: relative;
+    left : 22px;
+    margin: 31px 0% 0% 0%;
+}
+.navbar-menu { 
+height: 931px;
+}
+
+
+.projects{
+    position: relative;
+    left: 22px;
+    top: 61px;
+  
+}
+.projects-heading{
+    position: relative;
+    width: 87px;
+    height: 15px;
+    display: inline-block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0%;
+  
+    
+    text-transform: uppercase;
+    
+    color: #787486;
+}
+.project-description{
+    position: relative;
+   
+    margin-top: 83px;
+  
+    width: 237px;
+}
+.project1, .project2, .project3, .project4 {
+    
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+}
+.project1{
+    position: relative;
+    width: 213px;
+
+padding-left: 12px;
+    margin-left: 12px;
+background: rgba(80, 48, 229, 0.08);
+border-radius: 6px;
+}
+
+.project1 p{
+    position: relative;
+    width: 88px;
+    height: 19px;
+    margin: 10px auto 10px 36px;
+    padding: 0%;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #0D062D;
+}
+.Logo p{
+    position: relative;
+    width: 98px;
+    height: 24px;
+  
+    margin: 32px auto auto 9px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;   
+    color: #0D062D;
+}
+.Logo .logo1{
+    margin: 32px auto auto 22px;
+}
+.Logo .logo2{
+    margin: 34px auto auto 46px;
+
+}
+.Logo{
+    display: flex;
+}
+.project2 p{
+    
+  
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    margin-top: 20px;
+    width: 138px;
+    margin: 10px auto 10px 36px;
+    height: 19px;   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;    
+    color: #787486;
+}
+.project3 p{
+    position: relative;
+    width: 115px;
+   
+    height: 19px;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 20px;
+    margin: 10px auto 10px 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #787486;
+}
+.project4 p{
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    width: 89px;
+    margin-top: 20px;
+height: 19px;
+margin: 10px auto 10px 36px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #787486;
+}
+
+.thoughtLogo{
+    position: relative;
+    
+    margin: 45px auto auto 92px ;
+    width: 66px;
+height: 66px;
+z-index: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #ededed;
+border-radius: 50px;
+}
+
+.bulb{
+    position: absolute;
+    z-index: 2;
+    
+}
+
+.shadow{
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    z-index: 1;
+left: 16px;
+top: 16px;
+
+background: rgba(252, 214, 74, 0.7);
+filter: blur(17px)
+}
+
+.thoughtMsg{
+    width: 206px;
+height: 200px;
+position: relative;
+background: #ededed;
+
+margin: -30px 22.5px auto 22px;
+border: none;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 16px;
+
+}
+
+.thoughtHeading{
+    width: 101px;
+    position: relative;
+    top: 3px;
+height: 17px;
+margin: 0px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+
+
+color: #000000;
+}
+.thought-Div{
+    width: auto;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+.thoughtDiscription{
+    width: 166px;
+height: 60px;
+color: #787486;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+margin: 0px;
+position: relative;
+top: 12px;
+
+}
+.thoughtMsg input{
+    width: 166px;
+height: 40px;
+
+background: #FFFFFF;
+border-radius: 4px;
+position: relative;
+    top: 26px;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+.thoughtMsg input::placeholder{
+    width: 112px;
+    height: 17px;
+    padding: 12px 27px 11px 27px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    
+    
+    
+    color: #000000;
+}
+
+.navbar-menu-list li {
+   
+    margin-top: 30px;
+}
+.logo-container {
+    position: relative;
+    width: 16px;
+
+    height: 200px; 
+    left: 0px;
+    top: 0px;
+  }
+  
+
+.navbar-menu-list li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+    width: 84px;
+    height: 24px;
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar {
+        width: 30px;
+        height: 30px;
+        transition: width 0.3s ease-in-out;
+    }
+
+    .navbar-container {
+        flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background-color: #d8d8d8;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .navbar-menu.active {
+        transform: translateX(0);
+
+
+    }
+
+    .navbar-menu-list {
+        margin-top: 30px;
+
+    }
+
+    .navbar-menu-list li {
+        margin: 10px 0;
+    }
+}

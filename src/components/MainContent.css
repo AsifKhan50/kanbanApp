@@ -1,0 +1,345 @@
+.MainContaint{
+    position: relative;
+    width: 1189.5px;
+    height: 843px;
+    box-sizing: border-box;
+    padding: 41px 48px 0px 48.5px;
+    overflow-y: hidden;
+}
+.Title{
+    width: 345px;
+height: 56px;
+display: flex;
+border: none;
+box-sizing: border-box;
+}
+.Title h1{
+    
+    padding: 0;
+    margin: 0;
+    width: 253px;
+   
+    height: 56px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+font-weight: 600;
+font-size: 46px;
+line-height: 56px;
+
+
+text-transform: capitalize;
+
+color: #0D062D;
+}
+.Titlelogo{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+border: none;
+align-items: center;
+width: 91px;
+}
+.TitleLogo1{
+    position: relative;
+    box-sizing: border-box;
+   
+    left: 21.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  margin: 0%;
+  padding: 0%;
+  border: none;
+}
+.LogoBc1{
+    position: relative;
+    border: none;
+    left: 8.33%;
+    
+}
+.Logo1{
+    position: relative;
+border: none;
+   
+    left: -17.25px;
+}
+.TitleLogo2{
+    position: relative;
+    box-sizing: border-box;
+   
+    left: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: none;
+  
+  margin: 0%;
+  padding: 0%;
+}
+.LogoBc2{
+    position: relative;
+    border: none;
+    left: 8.33%;
+}
+.Logo2-1{
+    position: relative;
+ left: -17px;
+}
+.Logo2-2{
+    position: relative;
+    left: -16.01px;
+}
+.invites{
+padding: 0%;
+margin: 0%;
+border: none;
+}
+.AppTitle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subHeader{
+    width: 100%;
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.dropdowns{
+    box-sizing: border-box;
+    width: 256px;
+    height: 40px;
+    display: flex;
+}
+.filter{
+    display: flex;
+    overflow-y: hidden;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    width: 122px;
+    height: 40px;
+    
+    border: 1px solid #787486;
+    border-radius: 6px;
+}
+.FilterText{
+    position: absolute;
+    width: 39px;
+    height: 19px;
+    left: 37px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    
+    color: #787486;
+}
+.DateText{
+    width: 47px;
+    height: 19px;
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    left: 37px;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    
+    color: #787486;
+}
+.date{
+    box-sizing: border-box;
+    display: flex;
+    overflow-y: hidden;
+    justify-content: space-around;
+    align-items: center;
+    width: 122px;
+    height: 40px;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    left: 12px;
+    border: 1px solid #787486;
+    border-radius: 6px;
+
+}
+.main{
+    position: relative;
+    top: 82px;
+    margin: 0%;
+    width: 1093px;
+}
+
+@media (max-width: 1450px)  {
+    .MainContaint{
+        width: calc(100vw - 251px);
+        box-sizing: border-box;
+        height: auto;
+    }
+    .AppTitle{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+        justify-content: unset;
+    }
+    .columnLeft{
+        
+        width: auto !important;
+        justify-content: space-around !important;
+    }
+    
+    
+    
+}
+@media (max-width : 916px) {
+    .columnLeft{
+        width: auto !important;
+        flex-direction: column !important;
+        margin: auto;
+    }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .MainContaint {
+        
+        width: calc(100vw - 382px);
+        height: auto;
+        padding: 10px;
+    }
+    .AppTitle{
+        width: 100%;
+    }
+    /* .Title{
+    }
+     */
+    .Title h1{
+        font-size: 36px;
+        width: 193px;
+    }
+    .invites img{
+        width: 200px !important;
+    }
+    .sharebtns img{
+        width: 200px !important;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .MainContaint{
+        width: calc(100vw - 240px);
+        box-sizing: border-box;
+        padding: 0%;
+    }
+    .Title h1 {
+        font-size: 32px;
+        width: 190px;
+    }
+    
+    .Logo1 {
+      left: -16px;
+    }
+    
+    .Logo2-1 {
+      left: -17px;
+    }
+    
+    .Logo2-2 {
+      left: -16px;
+    }
+    
+    .invites img{
+        width: 200px !important;
+    }
+    .sharebtns img{
+        width: 200px !important;
+        
+    }
+   
+  }
+
+  @media (max-width: 768px) {
+    .MainContaint{
+        width: calc(100vw - 190px);
+        box-sizing: border-box;
+        padding: 0%;
+    }
+    .Title h1 {
+        font-size: 32px;
+        width: 172px;
+    }
+    
+    .Logo1 {
+      left: -16px;
+    }
+    
+    .Logo2-1 {
+      left: -17px;
+    }
+    
+    .Logo2-2 {
+      left: -16px;
+    }
+    
+    .invites img{
+        width: 200px !important;
+    }
+    .sharebtns img{
+        width: 200px !important;
+        
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .MainContaint{
+        width: calc(100vw - 40px);
+        box-sizing: border-box;
+        padding: 0%;
+    }
+    .Title h1 {
+      font-size: 28px;
+      width: 150px;
+    }
+    
+    
+   .dropdowns{
+   
+    flex-direction: column;
+    height: 85px;
+    justify-content: space-between;
+
+   }
+   .date{
+    left: 0px;
+   }
+    .invites img {
+      width: 150px;
+      height: 24px;
+    }
+  }
+ @media (max-width: 780px) {
+    .invites, .sharebtns{
+        display: none;
+    }
+ }
+
+
+
+ 
